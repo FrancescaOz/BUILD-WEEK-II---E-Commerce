@@ -1,0 +1,164 @@
+@import '_variabili';
+@import '_colori';
+
+//HOME//
+
+:root {
+    --surface-color: #eaeaea;
+    --curve: 20;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+body {
+  background-color: $bg-gray;
+}
+  .cards {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card {
+    height: 100%;
+    //border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .card__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    //border-radius: calc(var(--curve) * 1px);    
+    background-color: var(--surface-color);      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card:hover .card__overlay {
+    transform: translateY(0);
+  }
+  
+  .card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;    
+    background-color: var(--surface-color);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;      
+    z-index: 1;
+  }
+  
+  .card__arc path {
+    fill: var(--surface-color);
+    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+  }       
+  
+  .card:hover .card__header {
+    transform: translateY(0);
+  }
+  
+  .card__thumb {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;      
+    border-radius: 50%;      
+  }
+  
+  .card__title {
+    font-size: 2em;
+    margin: 0 0 .3em;
+    color: #488745;
+  }
+  
+  .card__tagline {
+    display: block;
+    margin: 1em 0;
+    font-family: "MockFlowFont";  
+    font-size: .8em; 
+    color: #488745;  
+  }
+  
+  .card__status {
+    font-size: 1.5em;
+    color: #000000;
+  }
+  
+  .card__description {
+    padding: 0 2em 2em;
+    margin: 0;
+    color: #000000;
+    font-family: "MockFlowFont";   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }    
+
+
+  //COLORI MISCELANIA//
+  .form-check-input:checked {
+    background-color: $bg-default;
+    border-color: $bg-default;
+  }
+
+  //NEWSLETTER//
+
+  .newsLetter {
+
+background-color: $secondary-color;
+
+h3, p {
+color: $white-color;
+}
+span {
+  color: $important-text;
+  font-weight: bold;
+}
+
+  }
+
+  //BLACKFRIDAY//
+  #blackFriday {
+    background-image: url('/assets/img/core-img/imaginieblackfriday.jpg');
+    background-size:cover;
+    background-position: center;
+    h2 {
+      color: $white-color;
+      font-size: 8em;
+    }
+    hr {
+      color: $white-color;
+      border: 2px solid $white-color;
+    }
+  }
+
+//LOGIN//
+#login {
+  width: 30%;
+}
+
+#sfondoLogin {
+  background-image: url('/assets/img/core-img/sfondologin.jpg');
+  background-size:cover;
+  background-position: center;
+}

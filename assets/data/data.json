@@ -1,0 +1,534 @@
+{
+  "checkout": [
+    {
+      "nome": "COSIMO PIETRO",
+      "cognome": "GARGIULLO",
+      "email": "cgomegaone@hotmail.com",
+      "indirizzo": "VIA DEGLI ASTRONAUTI",
+      "paese": "Italia",
+      "stato": "calbria",
+      "cap": "432",
+      "id": 1
+    },
+    {
+      "nome": "COSIMO PIETRO",
+      "cognome": "GARGIULLO",
+      "email": "cgomegaone@hotmail.com",
+      "indirizzo": "VIA DEGLI ASTRONAUTI",
+      "paese": "Stati Uniti",
+      "stato": "calbria",
+      "cap": "87064",
+      "id": 2
+    },
+    {
+      "nome": "COSIMO PIETRO",
+      "cognome": "",
+      "email": "",
+      "indirizzo": "",
+      "paese": "",
+      "stato": "",
+      "cap": "",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Laura",
+      "surname": "gaudencio",
+      "email": "cgomegaone@hotmail.com",
+      "user": "_iam.giacomo",
+      "password": "Laura12345",
+      "id": 1
+    }
+  ],
+  "carrello": [
+    {
+      "nome": "FJORD",
+      "prezzo": "229",
+      "immagine": "assets/img/bg-img/FJORD.webp",
+      "quantita": "1",
+      "id": 1
+    },
+    {
+      "nome": "BONNIE",
+      "prezzo": "229",
+      "immagine": "assets/img/bg-img/BONNIE.webp",
+      "quantita": "1",
+      "id": 2
+    },
+    {
+      "nome": "MAURICETTE",
+      "prezzo": "89",
+      "immagine": "assets/img/bg-img/MAURICETTE.webp",
+      "quantita": "1",
+      "id": 3
+    },
+    {
+      "nome": "ORIGAMI",
+      "prezzo": "479",
+      "immagine": "assets/img/bg-img/ORIGAMI.webp",
+      "quantita": "3",
+      "id": 4
+    },
+    {
+      "nome": "FJORD",
+      "prezzo": "229",
+      "immagine": "assets/img/bg-img/FJORD.webp",
+      "quantita": "1",
+      "id": 5
+    },
+    {
+      "nome": "DOLORES",
+      "prezzo": "479",
+      "immagine": "assets/img/bg-img/DOLORES.jpeg",
+      "quantita": "1",
+      "id": 6
+    },
+    {
+      "nome": "FJORD",
+      "prezzo": "229",
+      "immagine": "assets/img/bg-img/FJORD.webp",
+      "quantita": "1",
+      "id": 7
+    },
+    {
+      "nome": "CLYDE",
+      "prezzo": "79",
+      "immagine": "assets/img/bg-img/CLYDE.webp",
+      "quantita": "3",
+      "id": 8
+    }
+  ],
+  "tavoli": [
+    {
+      "id": 1,
+      "nome": "DOLORES",
+      "prezzo": 479,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/DOLORES.jpeg",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "IZIMIR",
+      "prezzo": 1499,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/IZIMIR.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "JAGGER",
+      "prezzo": 949,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/JAGGER.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "ORIGAMI",
+      "prezzo": 479,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/ORIGAMI.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "FACTORY",
+      "prezzo": 479,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/FACTORY.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ],
+  "sedie": [
+    {
+      "id": 1,
+      "nome": "CLYDE",
+      "prezzo": 79,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/CLYDE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "EVE",
+      "prezzo": 59,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/EVE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "MAURICETTE",
+      "prezzo": 89,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/MAURICETTE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "MIRA",
+      "prezzo": 79,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/MIRA.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "WEMBLEY",
+      "prezzo": 109,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/WEMBLEY.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ],
+  "letti": [
+    {
+      "id": 1,
+      "nome": "AGUEDA",
+      "prezzo": 489,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/AGUEDA.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "BELIANI",
+      "prezzo": 450,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/BELIANI.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "ELSA",
+      "prezzo": 390,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/ELSA.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "SLEEPER",
+      "prezzo": 930,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/SLEEPER.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "VERONICA",
+      "prezzo": 930,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/VERONICA2.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ],
+  "cassettiere": [
+    {
+      "id": 1,
+      "nome": "FJORD",
+      "prezzo": 229,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/FJORD.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "BONNIE",
+      "prezzo": 229,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/BONNIE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "PENELOPE",
+      "prezzo": 529,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/PENELOPE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "SWEET",
+      "prezzo": 219,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/SWEET.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "TIKAMOON",
+      "prezzo": 229,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/TIKAMOON.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ],
+  "lampade": [
+    {
+      "id": 1,
+      "nome": "CHICAGO",
+      "prezzo": 50,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/CHICAGO.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "PRISCILLA",
+      "prezzo": 40,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/PRISCILLA.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "WANDA",
+      "prezzo": 340,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/WANDA.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "ULISSE",
+      "prezzo": 140,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/ULISSE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "HAWAII",
+      "prezzo": 200,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/HAWAII.png",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ],
+  "decorazioni": [
+    {
+      "id": 1,
+      "nome": "DOGGY",
+      "prezzo": 40,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/DOGGY.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "POLLUS",
+      "prezzo": 20,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/cart3.jpg",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "MONDE",
+      "prezzo": 120,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/MONDE.webp",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "MONKEY",
+      "prezzo": 12,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/MONKEYS.jpg",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "DIFFUSORE OGUS",
+      "prezzo": 120,
+      "stock": "",
+      "descrizione": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "immagine": "assets/img/bg-img/9.jpg",
+      "immagine carosello": [
+        "img/product-img/pro-big-3.jpg",
+        "img/product-img/pro-big-4.jpg",
+        "img/product-img/pro-big-6.jpg",
+        "img/product-img/pro-big-8.jpg"
+      ]
+    }
+  ]
+}
