@@ -1,36 +1,5 @@
 {
-  "checkout": [
-    {
-      "nome": "COSIMO PIETRO",
-      "cognome": "GARGIULLO",
-      "email": "cgomegaone@hotmail.com",
-      "indirizzo": "VIA DEGLI ASTRONAUTI",
-      "paese": "Italia",
-      "stato": "calbria",
-      "cap": "432",
-      "id": 1
-    },
-    {
-      "nome": "COSIMO PIETRO",
-      "cognome": "GARGIULLO",
-      "email": "cgomegaone@hotmail.com",
-      "indirizzo": "VIA DEGLI ASTRONAUTI",
-      "paese": "Stati Uniti",
-      "stato": "calbria",
-      "cap": "87064",
-      "id": 2
-    },
-    {
-      "nome": "COSIMO PIETRO",
-      "cognome": "",
-      "email": "",
-      "indirizzo": "",
-      "paese": "",
-      "stato": "",
-      "cap": "",
-      "id": 3
-    }
-  ],
+  "checkout": [],
   "users": [
     {
       "firstname": "Laura",
@@ -50,53 +19,11 @@
       "id": 1
     },
     {
-      "nome": "BONNIE",
-      "prezzo": "229",
-      "immagine": "assets/img/bg-img/BONNIE.webp",
-      "quantita": "1",
-      "id": 2
-    },
-    {
-      "nome": "MAURICETTE",
-      "prezzo": "89",
-      "immagine": "assets/img/bg-img/MAURICETTE.webp",
-      "quantita": "1",
-      "id": 3
-    },
-    {
-      "nome": "ORIGAMI",
-      "prezzo": "479",
-      "immagine": "assets/img/bg-img/ORIGAMI.webp",
-      "quantita": "3",
-      "id": 4
-    },
-    {
-      "nome": "FJORD",
-      "prezzo": "229",
-      "immagine": "assets/img/bg-img/FJORD.webp",
-      "quantita": "1",
-      "id": 5
-    },
-    {
       "nome": "DOLORES",
       "prezzo": "479",
       "immagine": "assets/img/bg-img/DOLORES.jpeg",
       "quantita": "1",
-      "id": 6
-    },
-    {
-      "nome": "FJORD",
-      "prezzo": "229",
-      "immagine": "assets/img/bg-img/FJORD.webp",
-      "quantita": "1",
-      "id": 7
-    },
-    {
-      "nome": "CLYDE",
-      "prezzo": "79",
-      "immagine": "assets/img/bg-img/CLYDE.webp",
-      "quantita": "3",
-      "id": 8
+      "id": 2
     }
   ],
   "tavoli": [
