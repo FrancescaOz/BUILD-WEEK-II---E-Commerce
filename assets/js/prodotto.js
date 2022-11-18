@@ -13,20 +13,20 @@ window.addEventListener('DOMContentLoaded', init);
 
 myString = (prezzo, nome, immagine, descrizione) => {
     return stringa = `
-    <div class="col-12">
+    <div class="col-12 col-md-8">
         <ul>
             <li class="list-inline-item"><a class="nav-link" href="index.html">Home ></a></li>
-            <li class="list-inline-item"><a class="nav-link" href="">Categoria ></a></li>
-            <li class="list-inline-item"><a class="nav-link" href="">Nome</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="index.html">Categoria ></a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">${nome}</a></li>
         </ul>
         <img src="${immagine}" alt="" class="img-fluid pb-3" value="${immagine}" id="immagine">
     </div>
-    <div class="col-12 ps-3">
+    <div class="col-12 col-md-4 d-md-flex vh-100 align-items-center ps-3">
         <ul class="list-unstyled">
             <li>
                 <div class="container-fluid justify-content-between d-flex flex-row">
                     <p class="fs-2 fw-bold" value="${nome}" id="nome">${nome}</p>
-                    <p class="fs-2" value="${prezzo}" id="prezzo">&euro; ${prezzo}</p>
+                    <p class="fs-2 text-success" value="${prezzo}" id="prezzo">&euro; ${prezzo}</p>
                 </div>
             </li>
             <li>
@@ -35,7 +35,7 @@ myString = (prezzo, nome, immagine, descrizione) => {
             <li class="d-flex flex-row align-items-baseline justify-content-between">
                 <div class="d-flex flex-row">
                     <button class="btn btn-success" type="submit" onclick="aggiungi()"><i
-                            class="fa-solid fa-cart-shopping me-2 text text-dark link-success"></i>Aggiungi</button>
+                            class="fa-solid fa-cart-shopping me-2 text text-white link-success"></i>Aggiungi</button>
                     <div class="d-flex flex-row">
                         <button class="btn btn-link px-2"
                             onclick="this.parentNode.querySelector('input[type=number]').stepDown()">

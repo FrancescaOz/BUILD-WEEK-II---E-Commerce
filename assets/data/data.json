@@ -1,15 +1,5 @@
 {
   "checkout": [
-    {
-      "nome": "Francesca",
-      "cognome": "Pozzi",
-      "email": "francescaoz.pzz@gmail.com",
-      "indirizzo": "Via Anton Maria Salvini 1",
-      "paese": "Italia",
-      "stato": "toscsa",
-      "cap": "50133",
-      "id": 1
-    }
   ],
   "users": [
     {
