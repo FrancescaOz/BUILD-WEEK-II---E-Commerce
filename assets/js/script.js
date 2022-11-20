@@ -1,7 +1,6 @@
 //BLACKFRIDAY//
 // Imposta la data
 var countDownDate = new Date("Nov 25, 2022 00:00:00").getTime();
-
 // Aggiorna il countdown ogni secondo
 var x = setInterval(function () {
 

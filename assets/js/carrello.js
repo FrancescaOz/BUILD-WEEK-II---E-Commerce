@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', init);
 
-let prezzo, nome, immagine, user, quantita, datiCarrello, numeroCarrello;
+let prezzo, nome, immagine, user, quantita, datiCarrello, numeroCarrello, quantitaPrezzo;
 
 fetch('http://localhost:3000/carrello')
   .then((response) => {
@@ -83,7 +83,7 @@ myStringCarrello = (immagine, nome, quantita, prezzo) => {
                 <i class="fas fa-minus"></i>
             </button>
 
-            <input id="form1" min="0" name="quantity" value="${quantita}" type="number"
+            <input id="form1" min="0" name="quantity" value="${quantita}" onchange="aggiorna()" type="number"
                 class="form-control form-control-sm" style="width: 50px;" />
 
             <button class="btn btn-link px-2"
@@ -111,7 +111,8 @@ printDataCarrello = () => {
   myGetCarrello().then((data) => {
       if (data.length > 0) {
           data.map(function (element) {
-            listaCarrello.innerHTML += myStringCarrello(element.immagine, element.nome, element.quantita, element.prezzo);
+            quantitaPrezzo = element.quantita * element.prezzo;
+            listaCarrello.innerHTML += myStringCarrello(element.immagine, element.nome, element.quantita, quantitaPrezzo);
               return
           });
       } else {
@@ -119,6 +120,26 @@ printDataCarrello = () => {
       }
   });
 }
+
+/*
+function aggiorna() {
+  data = 
+aggiornaQuantita(data);
+  printDataCarrello();
+
+}
+
+
+async function aggiornaQuantita(data) {
+	let response = await fetch('http://localhost:3000/elenco/' + n, {
+		method: 'PUT',
+		headers: {
+			'Content-Type': 'application/json;charset=utf-8',
+		},
+		body: JSON.stringify(data),
+	});
+	clearForm();
+}*/
 
 totaleCarrello = () => {
   totaleCar.innerHTML = '';

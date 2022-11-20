@@ -21,7 +21,7 @@ myString = (prezzo, nome, immagine, descrizione) => {
         </ul>
         <img src="${immagine}" alt="" class="img-fluid pb-3" value="${immagine}" id="immagine">
     </div>
-    <div class="col-12 col-md-4 d-md-flex vh-100 align-items-center ps-3">
+    <div class="col-12 col-md-4 d-md-flex align-items-center ps-3">
         <ul class="list-unstyled">
             <li>
                 <div class="container-fluid justify-content-between d-flex flex-row">
