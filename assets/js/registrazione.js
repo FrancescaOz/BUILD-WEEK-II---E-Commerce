@@ -30,12 +30,12 @@ function init() {
 // Event HANDLER
 function eventHandler() {
     btnUp.addEventListener('click', function () {
-        // RICHIAMO VALIDATION
+        // RICHIAMO VALIDAZIONE
         validation();
     });
 }
 
-// FUNCTION VALIDATION
+//VALIDAZIONE
 function validation() {
 
 
@@ -80,7 +80,7 @@ function validation() {
 
 }
 
-// FUNCTION EXISTENCE USERNAME AND EMAIL
+// FUNCTION EXISTENCE USERNAME E EMAIL
 async function existence() {
     let response = await fetch("http://localhost:3000/users")
         .then((response) => {
